@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottom_navigation_item_current"
+        android:icon="@drawable/ic_current_black_24dp"
+        android:title="Current weather"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/bottom_navigation_item_hourly"
+        android:icon="@drawable/ic_hourly_black_24dp"
+        android:title="Hourly weather"
+        app:showAsAction="ifRoom"/>
+
+</menu>
